@@ -10,17 +10,19 @@ To simulate the couriers app we wrote a few scripts that will simulate a change 
 
 
 Opening the app:
-1. Open cmd and go to this directory and install the node packages with "npm install".
-2. Run the server side locally 
-	a. Go to "this_directory"/python_server with the CMD
-	b. run command "python main.py" to start the server.
-	c. the server started to work on localhost:5000.
-3. Run the client 
-	a. Open another CMD window and go to this directory.
-	b. run command "npm run electron" to start the client.
+
+	1. Open cmd and go to this directory and install the node packages with "npm install".
+	2. Run the server side locally 
+		a. Go to "this_directory"/python_server with the CMD
+		b. run command "python main.py" to start the server.
+		c. the server started to work on localhost:5000.
+	3. Run the client 
+		a. Open another CMD window and go to this directory.
+		b. run command "npm run electron" to start the client.
 
 
 Using the app:
+
 	1. As a worker, you can make an order by clicking on 'New order' Tab.
 	2. If you not sure about the address you can use the 'Area Map' Tab.
 	3. You can watch on the orders under 'Orders' Tab. 
@@ -28,6 +30,7 @@ Using the app:
 
 
 Open for expansion:
+
 	1. Manager Options. *Manager
 	2. Stock Update. *Manager
 	3. Customers Management. 
@@ -35,6 +38,7 @@ Open for expansion:
 
 
 Included Scripts:
+
 	1. get_workers_pass.py - To check workers passwords if you forgot. 
 	2. push_orders.py - To push order directly to the databse - without use the client. 
 	3. courier_confirm.py - simulate courier app, to mark order as picked from the restaurant.
