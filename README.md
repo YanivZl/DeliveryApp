@@ -11,8 +11,12 @@ To simulate the couriers app we wrote a few scripts that will simulate a change 
 
 Opening the app:
 
-	1. Open cmd and go to this directory and install the node packages with "npm install".
-	2. Run the server side locally 
+	1. Open CMD and go to this directory and install the node packages with "npm install".
+	2. In the CMD run command "pip install Flask".
+	3. run command "pip install Flask-Cors".
+	4. run command "pip install pymongo".
+	5. run command "pip install dnspython".
+	6. Run the server side locally 
 		a. Go to "this_directory"/python_server with the CMD
 		b. run command "python main.py" to start the server.
 		c. the server started to work on localhost:5000.
