@@ -11,6 +11,7 @@ import datetime
 
 def pushOrder(order):
     order["Status"] = "Preparation"
+    order["Courier"] = ""
     db["Orders"].insert_one(order)
 
 

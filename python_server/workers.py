@@ -52,6 +52,14 @@ def update_worker_entry(password):
     res = db["Workers"].find({"Password": password})
     for r in res:
         db["Workers"].update_one({"_id": r["_id"]}, {"$set": {"Active": str(datetime.datetime.now())}})
+        if r["Role"] == "Courier":
+            res2 = db["Workers"].find({"Role": "Courier", "Active": {"$ne": ""}})
+            temp = 0
+            for r2 in res2:
+                if len(r2["Status"]) > 1:
+                    if int(r2["Status"][1]) > temp:
+                        temp = int(r2["Status"][1])
+            db["Workers"].update_one({"_id": r["_id"]}, {"$set": {"Status": ["Waiting", temp]}})
         return (r["First Name"] + " " + r["Last Name"])
     return ""
 
@@ -92,5 +100,4 @@ def add_new_worker(data):
 
 def set_order_to_corier(order):
     order["_id"]
-# get_online_couriers()
 
