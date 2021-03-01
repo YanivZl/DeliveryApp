@@ -1,0 +1,69 @@
+.Orders{
+  display: inline-block;
+  position: absolute;
+  width: 1130px;
+}
+
+.Orders > section{
+  height: 75px;
+}
+
+.Orders > section > span{
+  margin: 10px 20px;
+  display: inline-block;
+}
+
+.Orders > section > div{
+  width: 950px;
+  margin: -20px auto;
+}
+
+.btn-info{
+  margin: -5px 0 0 10px;
+}
+
+.bth-info:focus{
+  box-shadow: 0;
+}
+
+#table-wrapper-orders {
+  position: relative;
+  display:inline-block;
+  width: 80%;
+}
+
+#table-wrapper-couriers {
+  position: relative;
+  display:inline-block;
+  width: 20%;
+  border-left: solid 2px black;
+  overflow:visible;
+}
+
+#table-scroll {
+  height: 425px;
+  overflow:auto;
+}
+
+.Orders > div{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Orders > div > button{
+  margin-right: 30px;
+  width: 220px;
+  height: 60px;
+}
+
+
+.input-group{
+  display: inline-flex !important;
+  width: 230px !important;
+  margin-left: 30px;
+}
+
+.custom-select{
+  width: 170px;
+}

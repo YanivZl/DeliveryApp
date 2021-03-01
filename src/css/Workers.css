@@ -1,0 +1,155 @@
+.footer-nav-workers{
+  background-color: rgb(209, 209, 214);
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 485px;
+}
+
+.first-group{
+  display: inline-block;
+}
+
+.second-group{
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+.workers-button{
+  background-color: rgb(229, 229, 234);
+  height: 90px;
+  width: 135px;
+  border: outset;
+  margin: 5px;
+}
+
+.workers-button > img{
+  height: 42px;
+  width: 42px;
+}
+
+.workers-button > div{
+  margin-top: -8px;
+}
+
+.workers-header{
+  background-color: rgb(209, 209, 214);
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 2px;
+  margin-bottom: 0;
+}
+
+.active-worker{
+  border: outset;
+  display: inline-block;
+  height: 112px;
+  width: 161px;
+}
+
+.active-worker > div{
+  font-size: 18px;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.active-worker > img{
+  margin-top: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.time-in{
+  background-color: rgb(199, 199, 204);
+  height: 20px;
+  font-size: 15px !important;
+  font-weight: normal;
+  border-bottom: solid 1.5px black;
+  margin: 0 0 5px -2px;
+  overflow-x:visible !important;
+}
+
+.padding-left{
+  padding-left: 2px;
+}
+
+.attendanceWindow{
+  background-color: rgb(229, 229, 234);
+  border: outset;
+  position: fixed;
+  z-index: 101;
+  width: 400px;
+  height: 215px;
+  top: 250px;
+  left: 450px;
+}
+
+.attendanceWindow > div{
+  text-align: center;
+  margin: 15px 0;
+}
+
+.attendanceWindow > section{
+  width: 25%;
+  margin: 0 auto;
+}
+
+.attendanceWindow > section > div{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.attendanceWindow > section > object{
+  margin-left: 5px;
+}
+
+.attendanceWindow > section > object > span{
+  margin: 0 5px;
+}
+
+.attendanceWindow > section > object > input{
+  width: 40px;
+  padding-left: 1.5px;
+}
+
+.attendanceWindow > button{
+  margin: 10px auto;
+  display: block;
+}
+
+.new-worker-window{
+  background-color: rgb(229, 229, 234);
+  border: outset;
+  position: fixed;
+  z-index: 101;
+  height: 480px;
+  width: 500px;
+  left: 400px;
+  top: 100px;
+  padding: 3% 0;
+}
+
+.new-worker-window > div{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.new-worker-window > .container > .row{
+  margin-bottom: 10px;
+}
+
+.new-worker-window > .container > .row > .col > input, .new-worker-window > .container > .row > .col > select{
+  height: 28px;
+  width: 200px;
+  text-align: center;
+  text-align-last: center;
+}
+.new-worker-window > small{
+  margin: 0 auto;
+  display: table;
+}
+
+.new-worker-window > div > button{
+  margin: 20px 40px;
+  display: inline-block;
+}

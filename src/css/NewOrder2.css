@@ -1,0 +1,81 @@
+.classes{
+  height: 170px;
+}
+
+.classes > div, .products > div, .order-list > div{
+  text-align: center;
+  background-color: rgb(199,199,204);
+  margin-bottom: 0px;
+}
+
+.classes, .products{
+  border: solid 2px rgb(142,142,147);
+}
+
+.classes > section > button, .products > section > button{
+  height: 72px;
+  width : 142.1px;
+  border: outset;
+  overflow: hidden;
+}
+
+.classes > section > button > div, .products > section > button > div{
+  font-size: 16px;
+}
+
+.classes > section > button > img, .products > section > button > img{
+  height: 40px;
+  width: 40px;
+}
+
+.products{
+  height: 245px;
+}
+
+
+.order-list{
+  height: 440px;
+  background-color: rgb(242,242,247);
+  padding: 0;
+}
+
+.pad-0{
+  padding: 0;
+}
+
+.ml-15px{
+  margin-left: 15px;
+}
+
+.btn-block{
+  margin-top: 5px;
+  width: 100% !important;
+}
+
+.col > button{
+  width: 114.5px;
+  height: 48px;
+}
+
+#PriceButton{
+  font-size: small;
+}
+
+.h-40px{
+  height: 40px;
+}
+
+.mt-8px{
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.right-align-90px{
+  position: absolute;
+  right: 90px;
+}
+
+.right-align-30px{
+  position: absolute;
+  right: 30px;
+}
