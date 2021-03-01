@@ -41,7 +41,7 @@ Open for expansion:
 	4. Business Statistics. 
 
 
-Included Scripts:
+Included Scripts (In 'scripts' Directory):
 
 	1. get_workers_pass.py - To check workers passwords if you forgot. 
 	2. push_orders.py - To push order directly to the databse - without use the client. 
